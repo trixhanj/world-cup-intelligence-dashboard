@@ -2,7 +2,7 @@
 
 Interactive sports analytics dashboard analyzing historical FIFA World Cup knockout-stage matches using real StatsBomb event data.
 
-## 👉 View the Heatmap: https://world-cup-intelligence-dashboard-hdevre8rwsinokkmb2hndy.streamlit.app/ 
+## 👉 [View the Dashboard](https://world-cup-intelligence-dashboard-hdevre8rwsinokkmb2hndy.streamlit.app/)
 
 ## Features
 
