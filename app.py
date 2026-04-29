@@ -313,12 +313,15 @@ st.subheader("📌 Analyst Conclusion")
 
 st.write(
     """
-    This dashboard suggests that knockout-stage success in the FIFA World Cup
-    is strongly tied to chance quality and attacking efficiency rather than
-    simply total shot volume.
+    Analysis of the selected FIFA World Cup finals suggests that match outcomes
+    are not determined solely by total expected goals (xG) or shot volume.
 
-    Teams that generated higher expected-goal value opportunities
-    were more likely to advance or win major matches.
+    In several cases, losing teams generated comparable or even stronger attacking metrics,
+    while winning teams succeeded through clinical finishing, defensive structure,
+    and high-leverage moments.
+
+    These findings highlight how knockout football can be heavily influenced by efficiency,
+    momentum swings, and situational execution rather than raw attacking output alone.
     """
 )
 
