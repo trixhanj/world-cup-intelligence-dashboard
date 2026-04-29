@@ -309,19 +309,58 @@ else:
 
 st.markdown("---")
 
-st.subheader("📌 Analyst Conclusion")
+st.header("📌 Analyst Conclusion")
 
-st.write(
+col1, col2 = st.columns(2)
+
+with col1:
+
+    st.success(
+        f"""
+        ⚽ Winners averaged **{winner_avg_xg:.2f} xG**
+        
+        compared to losers averaging **{loser_avg_xg:.2f} xG**.
+        """
+    )
+
+    st.info(
+        f"""
+        🎯 Winners attempted an average of **{winner_shots:.1f} shots**
+        
+        while losers averaged **{loser_shots:.1f} shots**.
+        """
+    )
+
+with col2:
+
+    if winner_shot_quality > loser_shot_quality:
+
+        st.success(
+            f"""
+            🔥 Winners generated better shot quality:
+            
+            **{winner_shot_quality:.3f} xG/shot**
+            """
+        )
+
+    else:
+
+        st.warning(
+            f"""
+            ⚠️ Losing teams actually generated higher quality chances:
+            
+            **{loser_shot_quality:.3f} xG/shot**
+            """
+        )
+
+st.markdown("### 🧠 What This Suggests")
+
+st.markdown(
     """
-    Analysis of the selected FIFA World Cup finals suggests that match outcomes
-    are not determined solely by total expected goals (xG) or shot volume.
-
-    In several cases, losing teams generated comparable or even stronger attacking metrics,
-    while winning teams succeeded through clinical finishing, defensive structure,
-    and high-leverage moments.
-
-    These findings highlight how knockout football can be heavily influenced by efficiency,
-    momentum swings, and situational execution rather than raw attacking output alone.
+    - Knockout football is not always won by the team with the highest attacking output  
+    - Clinical finishing and high-leverage moments heavily influence match outcomes  
+    - Some losing teams generated elite attacking metrics despite losing the match  
+    - Efficiency may matter more than pure shot volume in high-pressure tournament games  
     """
 )
 
