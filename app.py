@@ -22,31 +22,31 @@ Built with Python, Streamlit, Plotly, and real football event data.
 """)
 
 matches = {
+
     "2018 Final — France vs Croatia": {
         "id": 8658,
         "winner": "France",
         "score": "🇫🇷 France 4 - 2 Croatia 🇭🇷"
     },
+
     "2022 Final — Argentina vs France": {
         "id": 3869685,
         "winner": "Argentina",
         "score": "🇦🇷 Argentina 3 - 3 France 🇫🇷 (4-2 Pens)"
     },
-    "2014 Semi Final — Brazil vs Germany": {
-        "id": 7545,
-        "winner": "Germany",
-        "score": "🇧🇷 Brazil 1 - 7 Germany 🇩🇪"
-    },
-    "2022 Quarterfinal — Argentina vs Netherlands": {
-        "id": 3857267,
-        "winner": "Argentina",
-        "score": "🇦🇷 Argentina 2 - 2 Netherlands 🇳🇱 (4-3 Pens)"
-    },
+
     "2018 Round of 16 — Belgium vs Japan": {
-        "id": 7581,
+        "id": 7580,
         "winner": "Belgium",
         "score": "🇧🇪 Belgium 3 - 2 Japan 🇯🇵"
+    },
+
+    "2018 Round of 16 — France vs Argentina": {
+        "id": 7584,
+        "winner": "France",
+        "score": "🇫🇷 France 4 - 3 Argentina 🇦🇷"
     }
+
 }
 
 all_data = []
