@@ -33,20 +33,6 @@ matches = {
         "id": 3869685,
         "winner": "Argentina",
         "score": "🇦🇷 Argentina 3 - 3 France 🇫🇷 (4-2 Pens)"
-    },
-
-    "2018 Round of 16 — Belgium vs Japan": {
-        "id": 7580,
-        "winner": "Belgium",
-        "score": "🇧🇪 Belgium 3 - 2 Japan 🇯🇵"
-    },
-
-    "2018 Round of 16 — France vs Argentina": {
-        "id": 7584,
-        "winner": "France",
-        "score": "🇫🇷 France 4 - 3 Argentina 🇦🇷"
-    }
-
 }
 
 all_data = []
