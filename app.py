@@ -33,6 +33,7 @@ matches = {
         "id": 3869685,
         "winner": "Argentina",
         "score": "🇦🇷 Argentina 3 - 3 France 🇫🇷 (4-2 Pens)"
+    },
 }
 
 all_data = []
